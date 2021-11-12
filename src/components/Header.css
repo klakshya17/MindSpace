@@ -1,0 +1,41 @@
+#navbar {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: #282c34;
+  color: white;
+  display: grid;
+  grid-template-columns: auto 50%;
+  padding: 0.5em;
+}
+#elements {
+  font-size: 0.7em;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin: auto;
+}
+#logo {
+  font-size: 1.5em;
+  text-align: left;
+  margin-left: 0.5em;
+}
+#login {
+  margin: 0.5rem;
+}
+#login-button {
+  padding: 0.7em;
+  background-color: green;
+  border-radius: 1rem;
+  color: white;
+  border: green;
+  font-size: 1em;
+}
+.element {
+  margin: auto;
+  font-size: 1.2em;
+  text-align: center;
+}
+/* * {
+  border: solid black 1px;
+} */
