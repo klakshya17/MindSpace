@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Overpass:wght@500&display=swap");
+* {
+  font-family: "Lato", sans-serif;
+}
+
 #navbar {
   position: fixed;
   top: 0px;
@@ -18,7 +24,8 @@
 #logo {
   font-size: 1.5em;
   text-align: left;
-  margin-left: 0.5em;
+  margin: 0.5em;
+  font-family: "Dancing Script", cursive;
 }
 #login {
   margin: 0.5rem;
@@ -36,6 +43,29 @@
   font-size: 1.2em;
   text-align: center;
 }
+a {
+  text-decoration: none;
+  color: white;
+}
+a:visited,
+a:active {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  font-size: 1.2em;
+  text-decoration: none;
+  color: white;
+}
+a:focus {
+  text-decoration: none;
+  color: white;
+}
+
+#logo :hover {
+  font-size: x-large;
+  cursor: context-menu;
+}
 /* * {
-  border: solid black 1px;
+  border: solid black 2px;
 } */

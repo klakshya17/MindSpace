@@ -3,14 +3,26 @@ import "./Header.css";
 function Navbar() {
   return (
     <div id="navbar">
-      <div id="logo">Mindspace</div>
+      <div id="logo">
+        <a href="./">MindSpace</a>
+      </div>
       <div id="elements">
-        <div class="element">Doctors</div>
-        <div class="element">Book Appointment</div>
-        <div class="element">Blogs</div>
-        <div class="element">Daily Tips</div>
+        <div class="element">
+          <a href="./Doctors">Doctors</a>
+        </div>
+        <div class="element">
+          <a href="./Book-Appointment">Book Appointment</a>
+        </div>
+        <div class="element">
+          <a href="./Blogs">Blogs</a>
+        </div>
+        <div class="element">
+          <a href="./Daily-Tips">Daily Tips</a>
+        </div>
         <div id="login">
-          <button id="login-button">Login</button>
+          <a href="./login">
+            <button id="login-button">Login</button>
+          </a>
         </div>
       </div>
     </div>
