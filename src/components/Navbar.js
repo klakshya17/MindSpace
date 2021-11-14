@@ -11,9 +11,6 @@ function Navbar() {
           <a href="./Doctors">Doctors</a>
         </div>
         <div class="element">
-          <a href="./Book-Appointment">Book Appointment</a>
-        </div>
-        <div class="element">
           <a href="./Blogs">Blogs</a>
         </div>
         <div class="element">
