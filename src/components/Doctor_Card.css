@@ -1,0 +1,38 @@
+#doccard {
+  height: 480px;
+  width: 250px;
+  border: solid black 2px;
+  border-radius: 18px;
+  padding: 20px;
+  margin: auto;
+  display: inline-block;
+  overflow: -moz-hidden-unscrollable;
+}
+#doccard img {
+  height: 250px;
+  width: auto;
+  border-radius: 15px;
+}
+
+.cardEl {
+  margin: 3px;
+  text-align: center;
+  overflow: hidden;
+}
+h5.cardEl {
+  text-align: right;
+}
+
+button.cardEl {
+  height: 25px;
+  color: #222;
+  font-size: 0.9em;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(193, 204, 241);
+}
+button.cardEl:hover {
+  height: 28px;
+  font-size: 1.1em;
+}
