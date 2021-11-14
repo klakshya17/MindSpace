@@ -1,0 +1,40 @@
+.HomePage {
+  margin-top: 80px;
+}
+.HP {
+  width: 100%;
+  min-height: 600px;
+  display: grid;
+  grid-template-columns: auto auto;
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: right;
+  align-items: center;
+  color: #333;
+}
+#hp1,
+#hp3 {
+  background-color: #b3edff;
+}
+#hp2 {
+  background-color: #eee;
+  text-align: left;
+}
+.home-img {
+  height: fit-content;
+  width: 100%;
+}
+.hp-btn {
+  background-color: #003058;
+  height: 50px;
+  font-size: 1em;
+  border-radius: 20px;
+  border: none;
+  color: #eee;
+  padding: 0.8em;
+}
+.hp-btn:hover {
+  font-size: 1.2em;
+  cursor: pointer;
+  height: 55px;
+}
