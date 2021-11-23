@@ -13,9 +13,11 @@ function Home() {
         <img src={hp_img1} className="home-img" alt="logo" />
         <div>
           <h1>
-           MindSpace is an online counselling platform dedicated towards
-           spreading mental health awareness and promoting holistic wellbeing
-           through its wide range of services for users in India and around the world.
+            MindSpace is an online counselling platform dedicated towards
+            spreading mental health awareness and promoting holistic wellbeing
+            through its wide range of services for users in India and around the
+            world. Consult the Best Online Psychologist, Talk to Therapists,
+            Counsellors, Mental Health Experts in India.
           </h1>
           <button className="hp-btn">Book an Appointment</button>
         </div>
@@ -23,10 +25,12 @@ function Home() {
       <div className="HP" id="hp2">
         <div>
           <h1>
-            Consult the Best Online Psychologist in India
-            MindSpace – Top Online Psychologists
-            Top Psychologist in India. Talk to Therapists, Counsellors, Mental Health Experts in India. See the List of Top Psychologists in India.
+            A platform for users to share their stories and experiences.
+            Patients would be able to relate to others who have had a similar
+            experience and how they overcame them, which could encourage them
+            mentally.
           </h1>
+
           <button className="hp-btn">Read a Blog </button>
         </div>
         <img src={hp_img2} className="home-img" alt="logo" />
@@ -36,10 +40,12 @@ function Home() {
         <img src={hp_img3} className="home-img" alt="logo" />
         <div>
           <h1>
-            Experienced and Certified 
-            Get the best online Therapy & Counseling Experience from the Verified Professionals. Top Therapists for your mental health. Top Online Clinical Psychologist. Best Online Marriage Counsellor and Psychologist Consultation.
-            Get Online Therapy/ Counselling for Depression, Anxiety, Addiction, Phobia, Relationship Issues, Parenting Issues, Grief & Trauma,
-            Self-Improvement & Confidence Building and many more at our online counselling platform through our top psychologists in India.
+            A section to receive trusted, evidence-based health information from
+            our team of experts, alongside personal patient perspectives and
+            health consumer insights from those on the front lines. Beneficial
+            for the patients in building a healthy lifestyle by following daily
+            tips. They can make changes in their day-to-day life and improve
+            their overall health.
           </h1>
           <button className="hp-btn">Daily Tips</button>
         </div>
