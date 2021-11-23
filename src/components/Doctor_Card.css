@@ -1,13 +1,14 @@
 #doccard {
   height: 480px;
   width: 250px;
-  border: solid black 2px;
+  /* border: solid black 2px; */
   border-radius: 18px;
   padding: 20px;
   margin: auto;
   display: inline-block;
   overflow: -moz-hidden-unscrollable;
   margin: 20px;
+  box-shadow: 2px 2px 10px #999;
 }
 #doccard img {
   height: 250px;
