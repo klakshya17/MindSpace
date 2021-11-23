@@ -1,7 +1,7 @@
 export const Doctors = [
   {
     name: "Dr.Murphy",
-    degree: "",
+    degree: "MBBS",
     about: " ",
   },
   {
