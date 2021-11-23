@@ -2,12 +2,9 @@ import React from "react";
 import "./Tips_Card.css";
 function TipsCard() {
   return (
-    <div class="blog">
-      <div className="blogTop">
-        <h2>My new Blog</h2>
-        <date>
-          <h4>28 Aug 2021</h4>
-        </date>
+    <div class="tips">
+      <div className="tipsTop">
+        <h2>My new tips</h2>
       </div>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -32,7 +29,6 @@ function TipsCard() {
         Mauris augue neque gravida in. Amet luctus venenatis lectus magna
         fringilla urna porttitor rhoncus. At ultrices mi tempus imperdiet.
       </p>
-      <h4>Writer</h4>
     </div>
   );
 }
