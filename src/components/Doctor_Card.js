@@ -1,6 +1,6 @@
 import React from "react";
 import "./Doctor_Card.css";
-function Doctor_Card() {
+function DoctorCard() {
   return (
     <div id="doccard">
       <img
@@ -19,4 +19,4 @@ function Doctor_Card() {
     </div>
   );
 }
-export default Doctor_Card;
+export default DoctorCard;

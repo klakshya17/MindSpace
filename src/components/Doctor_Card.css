@@ -7,6 +7,7 @@
   margin: auto;
   display: inline-block;
   overflow: -moz-hidden-unscrollable;
+  margin: 20px;
 }
 #doccard img {
   height: 250px;
