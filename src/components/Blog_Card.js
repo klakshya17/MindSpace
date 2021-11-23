@@ -3,10 +3,7 @@ import "./Blog_Card.css";
 function BlogCard() {
   return (
     <div class="blog">
-      <div
-        className="blogTop"
-        // style="background-image: url(https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171__340.jpg)"
-      >
+      <div className="blogTop">
         <h2>My new Blog</h2>
         <date>
           <h4>28 Aug 2021</h4>
