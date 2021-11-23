@@ -5,7 +5,7 @@ import Home from "./containers/Home";
 import BlogPage from "./containers/BlogPage";
 import DailyTips from "./containers/DailyTips";
 import Doctor from "./containers/Doctor";
-
+import LoginPage from "./containers/Login";
 function App() {
   return (
     <div className="App">
@@ -14,6 +14,7 @@ function App() {
       <Doctor />
       <BlogPage />
       <DailyTips />
+      <LoginPage />
       <Footer />
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
