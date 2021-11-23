@@ -6,7 +6,7 @@ export const Blogs = [
     writer: "Writer",
   },
   {
-    title: "",
+    title: "abc",
     date: "",
     content: "",
     writer: "",
