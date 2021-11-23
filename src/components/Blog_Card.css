@@ -59,7 +59,7 @@ navbar button {
 }
 .blog {
   margin-top: 20px;
-  background-color: #ccc;
+  background-color: white;
   border: 5px;
   border-style: solid;
   border-radius: 20px;
@@ -89,4 +89,7 @@ date h4 {
 .blog h4 {
   text-align: right;
   margin-right: 20px;
+}
+.blogTop {
+  background-image: url(https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171__340.jpg);
 }
