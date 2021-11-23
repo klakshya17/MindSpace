@@ -1,12 +1,13 @@
 import React from "react";
 import "./Tips_Card.css";
-function TipsCard() {
+function TipsCard(props) {
   return (
     <div class="tips">
       <div className="tipsTop">
-        <h2>My new tips</h2>
+        <h2>{props.title}</h2>
       </div>
       <p>
+        {props.content}
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Accumsan lacus vel
         facilisis volutpat. Neque vitae tempus quam pellentesque nec nam. Amet
