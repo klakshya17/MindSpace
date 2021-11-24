@@ -1,0 +1,8 @@
+.aboutContainer {
+  margin: 120px auto;
+  width: 70%;
+  border: 3px black solid;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: rgba(172, 143, 250, 0.3);
+}
