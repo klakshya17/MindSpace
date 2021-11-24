@@ -25,9 +25,9 @@ function App() {
           <Route exact path="/Daily-Tips">
             <DailyTips />
           </Route>
-          {/* <Route exact path="/login">
+          <Route exact path="/login">
             <LoginPage />
-          </Route> */}
+          </Route>
         </Switch>
         <Footer />
         {/* <header className="App-header">

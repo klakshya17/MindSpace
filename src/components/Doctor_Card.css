@@ -1,5 +1,5 @@
 #doccard {
-  height: 480px;
+  height: auto;
   width: 250px;
   border-radius: 18px;
   padding: 20px;
@@ -18,7 +18,7 @@
 .cardEl {
   margin: 3px;
   text-align: center;
-  overflow: hidden;
+  overflow: auto;
 }
 h5.cardEl {
   text-align: right;
@@ -36,4 +36,8 @@ button.cardEl {
 button.cardEl:hover {
   height: 28px;
   font-size: 1.1em;
+}
+p.cardEl {
+  height: 80px;
+  width: 100%;
 }

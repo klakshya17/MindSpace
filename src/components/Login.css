@@ -4,7 +4,6 @@
   box-sizing: border-box;
   margin: auto;
 }
-
 .Login body {
   padding: 20px;
   background: #f6f5f7;
@@ -14,7 +13,7 @@
   flex-direction: column;
   font-family: "Montserrat", sans-serif;
   height: 100vh;
-  margin: -20px 0 50px;
+  margin: 100px 0 50px;
 }
 
 .form-container h1 {
@@ -92,7 +91,7 @@ input {
 
 .container {
   display: block;
-  margin: 60px auto;
+  margin: 150px auto 40px auto;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
