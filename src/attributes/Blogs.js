@@ -1,8 +1,14 @@
 export const Blogs = [
   {
     title: "Bipolar Bandit",
+
+    date: "24 oct ",
+    content: "Intresting Statistics about bipolar disorder
+               People with bipolar disorder, on average, suffer 10 years before receiving treatment  and only 49% of bipolar individuals receive treatment. 1
+
     date: "24th November",
     content: "People with bipolar disorder, on average, suffer 10 years before receiving treatment  and only 49% of bipolar individuals receive treatment. 1
+
 The average age of American bipolar disorder onset is 25 years old  2
 83% of bipolar cases are considered severe. 3
 More than 66% of people with bipolar disorder have one or more relatives with bipolar disorder or clinical depression 4
@@ -33,6 +39,12 @@ CHILDREN:
 
 A child’s risk of having bipolar disorder is 30% if one parent has bipolar disorder, 75% if two parents suffer the disorder 31
 In children, bipolar disorder is the 3rd highest reason for doctor visits, 2nd highest reason for hospital ER visits 32
+
+3.4 million children and adolescents suffer bipolar disorder 33
+,
+    writer: "Michelle Clark",
+  },
+
 3.4 million children and adolescents suffer bipolar disorder 33",
     writer: "Michelle Clark",
     image: "", },
