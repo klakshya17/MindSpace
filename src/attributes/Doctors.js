@@ -2,27 +2,27 @@ export const Doctors = [
   {
     name: "Dr.Murphy",
     degree: "MBBS",
-    about: "abc",
+    about: "",
   },
 
   {
     name: "Dr.Murphy",
-    degree: "",
+    degree: "MBBS",
     about: " ",
   },
   {
     name: "Dr.Murphy",
-    degree: "",
+    degree: "MBBS",
     about: " ",
   },
   {
     name: "Dr.Murphy",
-    degree: "",
+    degree: "MBBS",
     about: " ",
   },
   {
     name: "Dr.Murphy",
-    degree: "",
+    degree: "MBBS",
     about: " ",
   },
 ];

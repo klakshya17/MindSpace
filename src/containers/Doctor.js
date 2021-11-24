@@ -1,6 +1,7 @@
 import React from "react";
 import DoctorCard from "../components/Doctor_Card.js";
 import Doctors from "../attributes/Doctors.js";
+import "./Doctor.css";
 function Doctor() {
   const arr = Doctors.map((Doctors) => {
     return (
@@ -12,12 +13,6 @@ function Doctor() {
     );
   });
 
-  return (
-    <div>
-      {arr}
-      <DoctorCard />
-      <DoctorCard />
-    </div>
-  );
+  return <div className="DocContainer">{arr}</div>;
 }
 export default Doctor;
