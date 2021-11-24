@@ -3,7 +3,6 @@ import "./Login.css";
 function Login() {
   return (
     <div className="Login">
-      <h2>Weekly Coding Challenge #1: Sign in/up Form</h2>
       <div class="container" id="container">
         <div class="form-container sign-up-container">
           <form action="#">

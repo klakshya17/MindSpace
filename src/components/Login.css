@@ -5,7 +5,7 @@
   margin: auto;
 }
 
-.login body {
+.Login body {
   background: #f6f5f7;
   display: flex;
   justify-content: center;
@@ -17,6 +17,7 @@
 }
 
 h1 {
+  margin: 0px;
   font-weight: bold;
 }
 
@@ -89,6 +90,8 @@ input {
 }
 
 .container {
+  display: block;
+  margin: 60px auto;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
@@ -160,9 +163,9 @@ input {
 }
 
 .overlay {
-  background: #ff416c;
-  background: -webkit-linear-gradient(to right, #ff4b2b, #ff416c);
-  background: linear-gradient(to right, #ff4b2b, #ff416c);
+  background: #382e9b;
+  background: -webkit-linear-gradient(to right, #3c3ca8, #0b114d);
+  background: linear-gradient(to right, #182047, #191cc7);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 0;
