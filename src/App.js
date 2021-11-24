@@ -22,10 +22,12 @@ function App() {
           <Route exact path="/Blogs">
             <BlogPage />
           </Route>
-          <Route path="/Daily-Tips">
+          <Route exact path="/Daily-Tips">
             <DailyTips />
           </Route>
-          {/* <LoginPage /> */}
+          {/* <Route exact path="/login">
+            <LoginPage />
+          </Route> */}
         </Switch>
         <Footer />
         {/* <header className="App-header">
