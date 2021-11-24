@@ -22,6 +22,7 @@ Biohacking. ...",
      title: "Daily Tips 3",
     content: "Eat Healthy:  Vegetables and fruits? Absolutely! Nutritious foods. Sure. Don't drink 10 cups of anything in a day, unless it's water. But healthy eating also means having a healthy attitude toward food. Enjoy meals with friends, try new foods and try not to obsess over food. If you do find that your relationship to food is affecting your mental or physical health, get the facts on eating disorders and take the important step of finding help. 
 Sleep Well:  The American Academy of Sleep Medicine recommends between 8–10 hours of sleep per night for teenagers and over 7 hours for those ages 20 and up. But sleeping well also refers to when you sleep and the quality of that sleep. Sleep health expert, Dr. Eleanor McGlinchey recommends that you wake up at the same time every day, even on weekends and holidays. This simple trick will help you fight that feeling of jet lag on Monday morning (also known as "social jet lag") and ensure that you are functioning and feeling your best. ",
+
   },
 ];
 export default Tips;

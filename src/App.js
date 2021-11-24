@@ -6,6 +6,7 @@ import BlogPage from "./containers/BlogPage";
 import DailyTips from "./containers/DailyTips";
 import Doctor from "./containers/Doctor";
 import LoginPage from "./containers/Login";
+import About from "./containers/AboutUs";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
           </Route>
           <Route exact path="/login">
             <LoginPage />
+          </Route>
+          <Route exact path="/About-Us">
+            <About />
           </Route>
         </Switch>
         <Footer />
