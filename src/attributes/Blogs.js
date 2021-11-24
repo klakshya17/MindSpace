@@ -77,5 +77,6 @@ All of this requires excellent management practice, and the challenges presented
 All of this will help build a workplace that will help support health and wellbeing – but of course there is always more that can be done, and good employers will place the wellbeing of their staff at the heart of what they do. Gone are the days when a fruit bowl and a yoga class will tick the box of ‘looking after the health of your staff’. The relationship between work and health – and particularly mental wellbeing – is much deeper than that. This is why, in partnership with our colleagues at the GM Health and Social Care Partnership, we published our Mental health toolkit for employers as a resource for employers everywhere, to help them support their employees and understand the steps they can take to be an even better employer.",
     writer: "Ian mcarthur",
     image: "", }
+
 ];
 export default Blogs;

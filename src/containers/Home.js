@@ -3,7 +3,6 @@ import "./Home.css";
 import hp_img1 from "../attributes/hp-img1.png";
 import hp_img2 from "../attributes/hp-img2.png";
 import hp_img3 from "../attributes/hp-img3.png";
-
 function Home() {
   return (
     <div className="HomePage">

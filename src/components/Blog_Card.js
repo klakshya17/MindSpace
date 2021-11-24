@@ -1,15 +1,16 @@
 import React from "react";
 import "./Blog_Card.css";
-function BlogCard() {
+function BlogCard(props) {
   return (
     <div class="blog">
       <div className="blogTop">
-        <h2>My new Blog</h2>
+        <h2>{props.title}</h2>
         <date>
-          <h4>28 Aug 2021</h4>
+          <h4>{props.date}</h4>
         </date>
       </div>
       <p>
+        {props.content}
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Accumsan lacus vel
         facilisis volutpat. Neque vitae tempus quam pellentesque nec nam. Amet
@@ -32,7 +33,7 @@ function BlogCard() {
         Mauris augue neque gravida in. Amet luctus venenatis lectus magna
         fringilla urna porttitor rhoncus. At ultrices mi tempus imperdiet.
       </p>
-      <h4>Writer</h4>
+      <h4>{props.writer}</h4>
     </div>
   );
 }
