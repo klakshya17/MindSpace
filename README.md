@@ -11,3 +11,5 @@ experiences.
 MindSpace is a web-based application that provides people with a platform to seek professional help and guidance. MindSpace is built for people who are fighting their mental health battles alone. It aims to bridge
 the gap between Indian society and the stigma surrounding mental health.
 
+#Tech Stack Used
+HTML, CSS, React
