@@ -33,8 +33,7 @@ CHILDREN:
 
 A child’s risk of having bipolar disorder is 30% if one parent has bipolar disorder, 75% if two parents suffer the disorder 31
 In children, bipolar disorder is the 3rd highest reason for doctor visits, 2nd highest reason for hospital ER visits 32
-3.4 million children and adolescents suffer bipolar disorder 33
-Share this:",
+3.4 million children and adolescents suffer bipolar disorder 33",
     writer: "Michelle Clark",
     image: "",
   },
