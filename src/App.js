@@ -6,17 +6,29 @@ import BlogPage from "./containers/BlogPage";
 import DailyTips from "./containers/DailyTips";
 import Doctor from "./containers/Doctor";
 import LoginPage from "./containers/Login";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Home />
-      <Doctor />
-      <BlogPage />
-      <DailyTips />
-      <LoginPage />
-      <Footer />
-      {/* <header className="App-header">
+    <Router>
+      <div className="App">
+        <Header />
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route exact path="/Doctors">
+            <Doctor />
+          </Route>
+          <Route exact path="/Blogs">
+            <BlogPage />
+          </Route>
+          <Route path="/Daily-Tips">
+            <DailyTips />
+          </Route>
+          {/* <LoginPage /> */}
+        </Switch>
+        <Footer />
+        {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -30,7 +42,8 @@ function App() {
           Learn React
         </a>
       </header> */}
-    </div>
+      </div>
+    </Router>
   );
 }
 
