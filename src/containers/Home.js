@@ -17,7 +17,9 @@ function Home() {
             world. Consult the Best Online Psychologist, Talk to Therapists,
             Counsellors, Mental Health Experts in India.
           </h1>
-          <button className="hp-btn">Book an Appointment</button>
+          <button className="hp-btn">
+            <a href="/Doctors">Book an Appointment</a>
+          </button>
         </div>
       </div>
       <div className="HP" id="hp2">
@@ -29,7 +31,10 @@ function Home() {
             mentally.
           </h1>
 
-          <button className="hp-btn">Read a Blog </button>
+          <button className="hp-btn">
+            {" "}
+            <a href="/Blogs">Read a Blog</a>{" "}
+          </button>
         </div>
         <img src={hp_img2} className="home-img" alt="logo" />
       </div>
@@ -45,7 +50,9 @@ function Home() {
             tips. They can make changes in their day-to-day life and improve
             their overall health.
           </h1>
-          <button className="hp-btn">Daily Tips</button>
+          <button className="hp-btn">
+            <a href="/Daily-Tips">Daily Tips</a>
+          </button>
         </div>
       </div>
     </div>

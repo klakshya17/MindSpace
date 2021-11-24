@@ -20,18 +20,6 @@ function BlogCard(props) {
         nascetur ridiculus mus mauris. Ultrices in iaculis nunc sed augue lacus
         viverra vitae. Pretium viverra suspendisse potenti nullam ac. Ultricies
         integer quis auctor elit sed vulputate mi sit amet.
-        <br />
-        <br />
-        Fermentum posuere urna nec tincidunt praesent semper feugiat. Sed odio
-        morbi quis commodo odio aenean sed adipiscing diam. Dictum fusce ut
-        placerat orci nulla pellentesque dignissim enim. Neque volutpat ac
-        tincidunt vitae semper quis lectus nulla at. Non blandit massa enim nec
-        dui nunc mattis enim. Id velit ut tortor pretium. Sit amet consectetur
-        adipiscing elit duis tristique sollicitudin nibh sit. At tempor commodo
-        ullamcorper a. Porta lorem mollis aliquam ut. Est ullamcorper eget nulla
-        facilisi etiam dignissim diam. Malesuada pellentesque elit eget gravida.
-        Mauris augue neque gravida in. Amet luctus venenatis lectus magna
-        fringilla urna porttitor rhoncus. At ultrices mi tempus imperdiet.
       </p>
       <h4>{props.writer}</h4>
     </div>
