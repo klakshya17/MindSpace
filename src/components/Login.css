@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
 
-* {
+.Login * {
   box-sizing: border-box;
+  margin: auto;
 }
 
 .login body {
@@ -17,7 +18,6 @@
 
 h1 {
   font-weight: bold;
-  margin: 0;
 }
 
 h2 {
@@ -43,10 +43,10 @@ a {
   margin: 15px 0;
 }
 
-button {
+.Login button {
   border-radius: 20px;
-  border: 1px solid #ff4b2b;
-  background-color: #ff4b2b;
+  border: 1px solid #978582;
+  background-color: #121d5a;
   color: #ffffff;
   font-size: 12px;
   font-weight: bold;
