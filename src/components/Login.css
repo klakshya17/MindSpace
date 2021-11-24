@@ -6,6 +6,7 @@
 }
 
 .Login body {
+  padding: 20px;
   background: #f6f5f7;
   display: flex;
   justify-content: center;
@@ -16,12 +17,12 @@
   margin: -20px 0 50px;
 }
 
-h1 {
-  margin: 0px;
+.form-container h1 {
+  margin: 20px;
   font-weight: bold;
 }
 
-h2 {
+.form-container h2 {
   text-align: center;
 }
 
@@ -37,7 +38,7 @@ span {
   font-size: 12px;
 }
 
-a {
+.Login a {
   color: #333;
   font-size: 14px;
   text-decoration: none;
@@ -57,15 +58,15 @@ a {
   transition: transform 80ms ease-in;
 }
 
-button:active {
+.Login button:active {
   transform: scale(0.95);
 }
 
-button:focus {
+.Login button:focus {
   outline: none;
 }
 
-button.ghost {
+.Login button.ghost {
   background-color: transparent;
   border-color: #ffffff;
 }
@@ -224,7 +225,7 @@ input {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  margin: 0 5px;
+  margin: 5px 5px;
   height: 40px;
   width: 40px;
 }
