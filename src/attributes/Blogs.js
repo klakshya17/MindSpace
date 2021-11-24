@@ -1,15 +1,18 @@
 export const Blogs = [
   {
-    title: "Health Blog",
+    title: "Bipolar Bandit",
+
     date: "24 oct ",
     content: "",
-    writer: "Writer",
+    writer: "Michelle Clark",
+    image: "",
   },
   {
-    title: "abc",
-    date: "",
+    title: "Center for mental health",
+    date: "2nd November",
     content: "",
-    writer: "",
+    writer: "Ian mcarthur",
+    image: "",
   },
 ];
 export default Blogs;

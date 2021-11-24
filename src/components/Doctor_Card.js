@@ -9,13 +9,7 @@ function DoctorCard(props) {
       />
       <h3 className="cardEl">{props.name}</h3>
       <h5 className="cardEl">{props.degree}</h5>
-      <p className="cardEl">
-        {props.about}
-        In publishing and graphic design, Lorem ipsum is a placeholder text
-        commonly used to demonstrate the visual form of a document or a typeface
-        without relying on meaningful content. Lorem ipsum may be used as a
-        placeholder before final copy is available.
-      </p>
+      <p className="cardEl">{props.about}</p>
       <button className="cardEl"> Book Appointment</button>
     </div>
   );
